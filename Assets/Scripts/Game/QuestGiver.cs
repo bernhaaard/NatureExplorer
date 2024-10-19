@@ -266,6 +266,8 @@ namespace Game
         {
             if (_currentEntry != null)
             {
+                
+                
                 if (string.IsNullOrEmpty(_currentEntry.nextId) || _currentEntry.nextId.Equals(ExitId, StringComparison.OrdinalIgnoreCase))
                 {
                     Debug.Log("Reached end of dialogue or exit condition");
