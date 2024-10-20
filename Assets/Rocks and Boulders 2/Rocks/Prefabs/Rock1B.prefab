@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  - component: {fileID: 2739918212580813453}
-  m_Layer: 0
+  - component: {fileID: 8314643150506967695}
+  m_Layer: 3
   m_Name: Rock1B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &2739918212580813453
-CapsuleCollider:
+--- !u!65 &8314643150506967695
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,8 +102,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.9645482
-  m_Height: 2.0708017
-  m_Direction: 1
-  m_Center: {x: 0.08517182, y: 0.06445256, z: -0.25906557}
+  serializedVersion: 3
+  m_Size: {x: 3.4398122, y: 1.7637355, z: 3.1511564}
+  m_Center: {x: 0.18384069, y: -0.08908045, z: -0.25748158}

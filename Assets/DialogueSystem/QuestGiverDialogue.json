@@ -1,36 +1,41 @@
 [
   {
     "id": "intro_1",
-    "text": "Welcome, brave adventurer! Our world is in peril, and we need your help.",
+    "text": "Welcome, brave adventurer! Our world is in peril, and we need your swift action.",
     "nextId": "intro_2"
   },
   {
     "id": "intro_2",
-    "text": "The magical tree that sustains our land is dying. Only by gathering the scattered essences can we hope to save it.",
+    "text": "The magical tree that sustains our land is dying. We must gather the scattered yellow orbs of essence to save it, and time is of the essence!",
     "nextId": "intro_3"
   },
   {
     "id": "intro_3",
-    "text": "Your quest is simple yet crucial: Find all the essences hidden throughout the world and bring them back to heal the tree.",
+    "text": "Your quest is urgent: Collect all the yellow orbs scattered across the map as quickly as possible. You have a limited time to complete this crucial task.",
     "nextId": "intro_4"
   },
   {
     "id": "intro_4",
-    "text": "Are you ready to begin this important journey?",
+    "text": "Remember, speed is key. The faster you gather the orbs, the better chance we have of saving our world. Are you ready to begin this race against time?",
     "responses": [
       {
-        "text": "Yes, I'm ready to start!",
+        "text": "Yes, I'm ready to start the challenge!",
         "nextId": "quest_start"
       },
       {
-        "text": "Can you explain again?",
+        "text": "Can you explain the mission again?",
         "nextId": "intro_1"
       }
     ]
   },
   {
     "id": "quest_start",
-    "text": "Excellent! The fate of our world rests in your hands. Go forth and find those essences!",
+    "text": "Excellent! The fate of our world rests in your hands. Move swiftly, collect all yellow orbs, and may speed be your ally. Your time starts now!",
+    "nextId": "exit"
+  },
+  {
+    "id": "exit",
+    "text": "Good luck, adventurer! The clock is ticking. Go forth and save our world!",
     "nextId": "end"
   }
 ]
